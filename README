@@ -1,0 +1,8 @@
+TEMA1-IOCLA SD Preda Alexandru-313CB
+Pe masura ce se citesc liniile de cod se verifica ce comanda se va folosi. Daca primul cuvant de pe o linie este "insert" sau "insert_at"
+ se va intra in functia citeste care creeaza pe rand cate un element de tip void de lungimea corespunzatoare tipului,reprrezentat de 
+al doilea element de pe o linie. Daca e de tip 1 dimensiunea elementului care va fi inserat va fi egala cu suma dintre lungimea primului cuvant + sizeof(int8_t) * 2 + lungimea cuvantului din urma;
+Pentru tipul 2 dimensiunea elementului care va fi inserat va fi egala cu suma dintre lungimea primului cuvant + sizeof(int16_t)  + sizeof(int32_t) + lungimea cuvantului din urma.Daca e de tip 1 
+dimensiunea elementului care va fi inserat va fi egala cu suma dintre lungimea primului cuvant + sizeof(int32_t) * 2 + lungimea cuvantului din urma;
+In functiile de add_last si add_at se va aloca si realoca memoria pentru vectorul arr,in functie de lungimea elementului introdus,iar in cazul functie delete_at realocarea ii va da vectorului arr
+dimensiunea mai mica cu dimensiunea elementului corespunzator indexului.In functia citeste vom face free-urile corespunzatoare.
