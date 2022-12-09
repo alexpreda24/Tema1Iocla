@@ -1,4 +1,3 @@
-TEMA1-IOCLA SD Preda Alexandru-313CB
 Pe masura ce se citesc liniile de cod se verifica ce comanda se va folosi. Daca primul cuvant de pe o linie este "insert" sau "insert_at"
  se va intra in functia citeste care creeaza pe rand cate un element de tip void de lungimea corespunzatoare tipului,reprrezentat de 
 al doilea element de pe o linie. Daca e de tip 1 dimensiunea elementului care va fi inserat va fi egala cu suma dintre lungimea primului cuvant + sizeof(int8_t) * 2 + lungimea cuvantului din urma;
